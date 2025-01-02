@@ -7,6 +7,7 @@ const nuevoText = ref('');
 
 const enviar = (text) => {
     nuevoText.value = text
+    nuevoText.value = '';
 
 }
 
